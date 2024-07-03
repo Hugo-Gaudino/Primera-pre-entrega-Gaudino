@@ -9,7 +9,7 @@ while (elegir !== "si" && elegir !== "no") {
 }
 
 if (elegir === "si") {
-  let marca = prompt("elija entre iphone, xiaomi o samsung");
+  const marca = prompt("elija entre iphone, xiaomi o samsung");
   if (marca === "iphone") {
     precio = 200;
   } else if (marca === "xiaomi") {
@@ -20,9 +20,9 @@ if (elegir === "si") {
   console.log("su precio es " + precio);
 } else (elegir === "no")[alert("pasemos a los accesorios")];
 
-let auriculares = 20;
-let funda = 15;
-let cargadorTurbo = 25;
+//  auriculares = 20;
+//  funda = 15;
+// cargadorTurbo = 25;
 
 let accesorio = prompt("desea agregar un accesorio?");
 
@@ -32,7 +32,7 @@ while (accesorio !== "si" && accesorio !== "no") {
 }
 
 if (accesorio === "si") {
-  let deseaAccesorio = prompt(
+  const deseaAccesorio = prompt(
     "elija entre funda, cargador turbo o auriculares"
   );
   if (deseaAccesorio === "auriculares") {
